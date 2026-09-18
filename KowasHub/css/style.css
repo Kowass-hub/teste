@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #080A0F;
+    font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navegacao {
+    top: 0;
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 60px;
+
+    border-bottom: 1px solid #1B222D;
+    position: fixed;
+    z-index: 100;
+    background-color: #080A0F;
+}
+
+
+.container-imagem img {
+    width: 150px;
+    display: block;
+}
+
+
+.nav-buttons {
+    display: flex;
+    gap: 35px;
+}
+
+
+.nav-buttons a {
+    color: #F5F7FA;
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.nav-buttons a:hover {
+    color: #1677FF;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: calc(100vh - 80px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+
+.hero-content {
+    max-width: 900px;
+}
+
+
+.hero-content h1 {
+    font-size: 72px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+.hero-content p {
+    margin-top: 20px;
+
+    color: #A7AFBD;
+
+    font-size: 18px;
+}
+
+
+/* HERO BUTTONS */
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+
+    gap: 15px;
+    margin-top: 40px;
+}
+
+
+.hero-buttons a {
+    padding: 14px 25px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+
+.hero-buttons a:first-child {
+    background-color: #1677FF;
+    color: white;
+}
+
+
+.hero-buttons a:last-child {
+    border: 1px solid #394453;
+    color: #F5F7FA;
+}
+
+
+.hero-buttons a:first-child:hover {
+    background-color: #4DA3FF;
+}
+
+
+.hero-buttons a:last-child:hover {
+    border-color: #1677FF;
+    color: #1677FF;
+}
+
+footer{
+    margin-top: 40px;
+    text-align: center;
+    opacity: 0.3;
+}
+
+/* ProdutosPag */
+
+main{
+    margin-top: 100px
+
+
+
+}
+
+
+main h1{
+    color: white;
+    margin-left: 15px;
+}
